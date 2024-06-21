@@ -1,0 +1,20 @@
+<ion-content>
+  <swiper-container #swiper [pagination]="true">
+    <swiper-slide>
+      <ion-text>
+        <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a"/>
+        <h1>Hey there!</h1>
+        <p>This is an epic app because...</p>
+        <ion-button (click)="next()" fill="outline" color="light">Next</ion-button>
+      </ion-text>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-text>
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"/>
+        <h1>It's Ionic!</h1>
+        <p>... it shows all the basics you need!</p>
+        <ion-button (click)="start()" fill="outline" color="light">Start now</ion-button>
+      </ion-text>
+    </swiper-slide>
+  </swiper-container>
+</ion-content>
